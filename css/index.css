@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+
+.navbar {
+    background: #383838 !important;
+}
+
+.logo {
+    height: 45px; /* Adjust the height */
+    width: auto;  /* Ensures the aspect ratio is maintained */
+}
+
+.navWhiteText {
+    color: white;
+}
+
+.navWhiteText:hover{
+    color: #8f8f8f;
+    outline: 2px solid green;
+    border-radius: 5px;
+}
