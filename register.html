@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap-css/bootstrap.min.css">
+    <script src="bootstrap-js/bootstrap.bundle.min.js"></script>
+    <link href=" css/common.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
+
+    <style>  /* Bohužiaľ inak to nešlo musi to byť tu bije sa to s bootstrapom */
+        @font-face { font-family: "PiratesFont"; src: url('res/Blackpearl.ttf'); }
+        body {
+            font-family: "PiratesFont" !important;
+        }
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand-custom" href="index.html"><img class="logo" src="res/LogoServis.png" alt="Logo" /></a>
+        <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon-custom"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link navWhiteText" aria-current="page" href="reservations.html">Reservations</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link navWhiteText" href="contacts.html">Contacts</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+    <div class="form-container">
+        <form class="d-flex register-form" role="Register">
+            <ul class="list-form">
+                <h3>Register</h3>
+                <input class="form-control me-2 input-margin" placeholder="Full name" aria-label="Full name">
+                <input class="form-control me-2 input-margin" placeholder="E-mail" aria-label="E-mail">
+                <input class="form-control me-2 input-margin" placeholder="Phone number" aria-label="Phone number">
+                <input class="form-control me-2 input-margin" type="Password" placeholder="Password" aria-label="Password">
+                <input class="form-control me-2 input-margin" type="Password" placeholder="Password confirm" aria-label="Password confirm">
+                <button class="btn btn-outline-success register-button input-margin" type="submit">Register</button>
+            </ul>
+        </form>
+    </div>
+
+
+<footer>
+    <p class="copyright">© 2024 Sakala Benjamin in Zilina</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.map {
+    height: 400px;
+    width: 85%;
+    border: 2px solid #198754;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #4a4a4a;
+    margin: 0 auto;
+}
+
+.contacts-book {
+    padding-top: 1.5em;
+    border: 2px solid #198754;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #4a4a4a;
+    margin: 0 auto;
+    width: 85%;
+}
+
