@@ -18,7 +18,7 @@
     <style>  /* Bohužiaľ inak to nešlo musi to byť tu bije sa to s bootstrapom */
         @font-face { font-family: "PiratesFont"; src: url('res/Blackpearl.ttf'); }
         body {
-            font-family: "PiratesFont" !important;
+            font-family: "PiratesFont",serif ;
         }
     </style>
 
@@ -39,8 +39,8 @@
                     <a class="nav-link navWhiteText" href="register.html">Register</a>
                 </li>
             </ul>
-            <form class="d-flex" role="Login">
-                <input class="form-control me-2" type="Username" placeholder="Name" aria-label="Name">
+            <form class="d-flex" role="form">
+                <input class="form-control me-2" placeholder="Name" aria-label="Name">
                 <input class="form-control me-2" type="Password" placeholder="Password" aria-label="Password">
                 <button class="btn btn-outline-success" type="submit">Login</button>
             </form>
@@ -49,7 +49,7 @@
     </nav>
 
     <h1>Contacts</h1>
-    <div class="contacts-book">
+    <div class="box">
         <ul>
             <h3>Phone number: +1 9123 123 123</h3>
             <h3>E-mail: shop@piratesservice.com</h3>
@@ -58,5 +58,8 @@
     <h1>Our Location</h1>
     <div class="map" id="map"></div>
 
+    <footer>
+        <p class="copyright">© 2024 Sakala Benjamin in Zilina</p>
+    </footer>
 </body>
 </html>

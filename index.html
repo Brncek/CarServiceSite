@@ -13,7 +13,7 @@
     <style>  /* Bohužiaľ inak to nešlo musi to byť tu bije sa to s bootstrapom */
         @font-face { font-family: "PiratesFont"; src: url('res/Blackpearl.ttf'); }
         body {
-            font-family: "PiratesFont" !important;
+            font-family: "PiratesFont",serif;
         }
     </style>
 
@@ -37,8 +37,8 @@
                         <a class="nav-link navWhiteText" href="register.html">Register</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="Login">
-                    <input class="form-control me-2" type="Username" placeholder="Name" aria-label="Name">
+                <form class="d-flex" role="form">
+                    <input class="form-control me-2" placeholder="Name" aria-label="Name">
                     <input class="form-control me-2" type="Password" placeholder="Password" aria-label="Password">
                     <button class="btn btn-outline-success" type="submit">Login</button>
                 </form>
